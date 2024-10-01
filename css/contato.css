@@ -1,3 +1,13 @@
+/* Variáveis */
+:root {
+    --background: #F9A602;
+    --text-color: #F0E0C0;
+    --nav-color: #2375F5;
+    --background-card: #E81123;
+    --box-shadow: #000000;
+    --footer-color: #F0E0C0;
+}
+
 /* Reset básico */
 * {
     margin: 0;
@@ -10,10 +20,10 @@
 /* Corpo */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0e5c9;
+    background-color: var(--text-color);
     background-image: url('../img/vintage-texture.png'); /* Textura vintage */
     background-repeat: repeat;
-    color: #333;
+    color: var(--text-color);
 }
 
 /* Cabeçalho */
@@ -22,7 +32,7 @@ body {
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-    background-color: #F9A602;
+    background-color: var(--background);
 }
 
 .img-header {
@@ -32,20 +42,20 @@ body {
 .site-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 40px;
-    color: #FFFFFF;
+    color: var(--text-color);
     margin-left: 20px;
 }
 
 .site-subtitle {
     font-family: 'Press Start 2P', cursive;
     font-size: 18px;
-    color: #FFFFFF;
+    color: var(--text-color);
     margin-left: 20px;
 }
 
 /* Navegação */
 .section-nav {
-    background: #2375F5;
+    background: var(--nav-color);
     border-radius: 25px;
     width: 450px;
     height: 45px;  
@@ -60,13 +70,13 @@ body {
 }
 
 .nav-link {
-    color: #F0E0C0;
+    color: var(--text-color);
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .nav-link:hover {
     transform: scale(1.1);
-    color: #FFD700; /* Efeito visual ao passar o mouse */
+    color: var(--background); /* Efeito visual ao passar o mouse */
 }
 
 /* Conteúdo principal */
@@ -76,7 +86,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 50px;
-    background-color: #D12323;
+    background-color: var(--background-card);
     border-radius: 20px;
     margin: 30px;
 }
@@ -93,14 +103,14 @@ body {
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 8px;
-    border: 2px solid #ccc;
+    border: 2px solid var(--nav-color);
 }
 
 .contact-form button {
     width: 100%;
     padding: 10px;
-    background-color: #2375F5;
-    color: white;
+    background-color: var(--nav-color);
+    color: var(--text-color);
     font-size: 18px;
     border: none;
     border-radius: 8px;
@@ -109,7 +119,7 @@ body {
 }
 
 .contact-form button:hover {
-    background-color: #FFD700;
+    background-color: var(--background);
 }
 
 .location-section {
@@ -119,7 +129,7 @@ body {
 
 .map-container {
     margin-top: 20px;
-    background-color: #f0e5c9;
+    background-color: var(--text-color);
     border-radius: 15px;
     overflow: hidden;
 }
@@ -128,16 +138,17 @@ body {
 .site-footer {
     display: flex;
     justify-content: center;
-    background-color: #F9A602;
+    background-color: var(--background);
     padding: 20px;
 }
 
 .div-footer {
-    background-color: #F0E0C0;
+    background-color: var(--footer-color);
     border-radius: 100px;
     text-align: center;
     padding: 15px;
     width: 80%;
+    color: var();
 }
 
 .author-name,
