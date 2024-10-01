@@ -1,3 +1,15 @@
+/* Variáveis */
+:root {
+    --background: #F9A602;
+    --text-color: #F0E0C0;
+    --nav-color: #2375F5;
+    --background-card: #E81123;
+    --box-shadow: #000000;
+    --footer-color: #F0E0C0;
+    --second-text-color: #333;
+    --title-color: #FFFFFF;
+}
+
 /* Reset básico */
 * {
     margin: 0;
@@ -10,10 +22,10 @@
 /* Corpo */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0e5c9;
+    background-color: var(--background);
     background-image: url('../img/vintage-texture.png'); /* Textura vintage */
     background-repeat: repeat;
-    color: #333;
+    color: var(--second-text-color);
 }
 
 /* Cabeçalho */
@@ -22,7 +34,7 @@ body {
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-    background-color: #F9A602;
+    background-color: var(--background);
 }
 
 .img-header {
@@ -32,20 +44,20 @@ body {
 .site-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 40px;
-    color: #FFFFFF;
+    color: var(--title-color);
     margin-left: 20px;
 }
 
 .site-subtitle {
     font-family: 'Press Start 2P', cursive;
     font-size: 18px;
-    color: #FFFFFF;
+    color: var(--title-color);
     margin-left: 20px;
 }
 
 /* Navegação */
 .section-nav {
-    background: #2375F5;
+    background: var(--nav-color);
     border-radius: 25px;
     width: 450px;
     height: 45px;  
@@ -60,13 +72,13 @@ body {
 }
 
 .nav-link {
-    color: #F0E0C0;
+    color: var(--text-color);
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .nav-link:hover {
     transform: scale(1.1);
-    color: #FFD700; /* Efeito visual ao passar o mouse */
+    color: var(--background); /* Efeito visual ao passar o mouse */
 }
 
 /* Conteúdo principal */
@@ -77,7 +89,7 @@ body {
 .section-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 30px;
-    color: #FFFFFF;
+    color: var(--text-color);
     text-align: center;
     margin-bottom: 20px;
 }
@@ -86,16 +98,16 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #D12323;
+    background-color: var(--background-card);
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 20px;
 }
 
 .product-card {
-    background-color: #F0E0C0;
+    background-color: var(--text-color);
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow);
     padding: 20px;
     text-align: center;
     width: 200px;
@@ -120,23 +132,24 @@ body {
 .product-price {
     font-size: 16px;
     font-weight: bold;
-    color: #333;
+    color: var(--second-text-color);
 }
 
 /* Rodapé */
 .site-footer {
     display: flex;
     justify-content: center;
-    background-color: #F9A602;
+    background-color: var(--background);
     padding: 20px;
 }
 
 .div-footer {
-    background-color: #F0E0C0;
+    background-color: var(--footer-color);
     border-radius: 100px;
     text-align: center;
     padding: 15px;
     width: 80%;
+    color: var(--box-shadow);
 }
 
 .author-name,
