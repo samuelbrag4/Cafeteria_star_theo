@@ -1,3 +1,4 @@
+/* Ajustes gerais */ 
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@ body {
     background: #F9A602;
 }
 
+/* Cabeçalho do site */
 .site-header {
     display: flex;
 }
@@ -31,6 +33,7 @@ body {
     color: #F0E0C0;
 }
 
+/* Barra de navegação */ 
 .section-nav {
     border-radius: 25px;
     background: #2375F5;
@@ -48,6 +51,7 @@ body {
     margin-top: 10px;
 }
 
+/* Conteúdo principal */
 .site-article {
     display: flex;
     justify-content: space-around;

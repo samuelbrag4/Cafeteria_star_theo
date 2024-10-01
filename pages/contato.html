@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dice & Drip Coffee</title>
+    <title>Dice & Drip Coffee - Contato</title>
 
     <link rel="stylesheet" href="../css/contato.css">
 
@@ -13,7 +13,7 @@
 <body>
     <header class="site-header">
         <section class="section-header">
-            <img src="img/image 1.png" alt="logo da cafeteria" class="img-header">
+            <img src="../img/logo.png" alt="logo da cafeteria" class="img-header">
             <h1 class="site-title">Dice & Drip</h1>
             <h3 class="site-subtitle">Coffee</h3>
         </section>
@@ -26,19 +26,28 @@
                 <li class="nav-item"><a href="./contato.html" class="nav-link">Contato</a></li>
             </ul>   
         </nav>
-    </section>
+        </section>
     </header>
 
-    <article class="site-article">
-        <img src="img/image 6.png" alt="Xicrinho" class="img-xicrinho">
-        <section class="article-section">
-            <h1 class="article-title">Bem vindo(a)!</h1>
-            <p class="article-text"> Inspirada no estilo encantador dos desenhos animados clássicos de *Cuphead*, nossa cafeteria oferece muito mais que cafés e doces — é uma experiência nostálgica que transporta você para um universo lúdico e divertido. Com uma decoração retrô, remetendo aos anos 30, nosso ambiente é o local perfeito para relaxar e apreciar bebidas exclusivas, preparadas com grãos selecionados, e sobremesas criativas que impressionam tanto pelo sabor quanto pelo visual.
-            <br>
-            Cada visita é uma aventura gastronômica, onde você poderá se deliciar com combinações únicas de sabores em um ambiente acolhedor e temático. Seja para um café rápido ou uma tarde descontraída com amigos, nossa cafeteria oferece a mistura perfeita de nostalgia e diversão. Venha descobrir o sabor da diversão e embarque nessa jornada animada conosco!</p>
+    <main class="contact-container">
+        <section class="location-section">
+            <h2>Estamos aqui</h2>
+            <!-- Mapa com iframe pego no maps -->
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117010.08392745104!2d-46.71649803686726!3d-23.584057322933376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce598421a6f18b%3A0x1034a05e6431909e!2sWe%20Coffee!5e0!3m2!1spt-PT!2sbr!4v1727740972332!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
-        <img src="img/image 5.png" alt="Caneco" class="img-caneco">
-    </article>
+        
+        <section class="contact-info">
+            <h2>Entre em contato</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="seuemail@gmail.com" required>
+                <textarea name="message" rows="4" placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
 
     <footer class="site-footer">
         <div class="div-footer">
