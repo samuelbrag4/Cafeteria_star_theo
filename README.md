@@ -56,6 +56,6 @@ A página de contato permite que os clientes entrem em contato conosco facilment
 
 Para executar o site localmente:
 
-1. Abra seu navegador e visite `http://localhost:3000`
+1. Abra seu navegador e visite `https://samuelbrag4.github.io/Dice_-_Drip_Coffee/`
 
 Aproveite sua estadia na Dice & Drip Coffee, onde cada gole é uma aventura!
