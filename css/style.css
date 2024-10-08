@@ -149,6 +149,16 @@ body {
         align-content: center;
     }
 
+    .section-nav {
+        border-radius: 25px;
+        background: var(--nav-color);
+        width: 400px;
+        height: 45px;
+        margin-top: 120px;
+        margin-left: -0px;
+        color: var(--text-color);
+    }
+
     .site-article {
         display: flex;
         flex-direction: column;
@@ -167,7 +177,7 @@ body {
     }
 
     .article-section {
-        width: 300px;
+        width: 80%;
         height: 650px;
 
     }
