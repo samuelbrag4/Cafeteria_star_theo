@@ -123,3 +123,112 @@ body {
 .author-email {
     margin-bottom: 5px;
 }
+
+/* Media queries para diferentes tamanhos de tela */
+@media (max-width: 767px) {
+    /* Estilos para celulares */
+
+    .site-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .section-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .section-nav {
+        border-radius: 25px;
+        background: var(--nav-color);
+        width: 400px;
+        height: 45px;
+        margin-top: 120px;
+        margin-left: -0px;
+        color: var(--text-color);
+    }
+
+    .site-article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-xicrinho {
+        width: 400px;
+
+    }
+
+    .img-caneco {
+        width: 300px;
+
+    }
+
+    .article-section {
+        width: 80%;
+        height: 650px;
+
+    }
+
+    .div-footer {
+        width: 200rem;
+        color: var(--box-shadow);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para tablets */
+
+    body {
+        display: flex;
+        align-items: center;
+    }
+
+    .site-header {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .section-nav {
+        margin-left: 500px;
+        margin-right: 30px;
+        margin-top: 50px;
+        width: 300px;
+        margin-top: -150px;
+    }
+
+    .site-article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-xicrinho {
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    .img-caneco {
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    .article-section {
+        width: 600px;
+        height: 350px;
+        margin-left: 50px;
+    }
+
+    .div-footer {
+        width: 700px;
+        margin-bottom: 0px;
+    }
+}
