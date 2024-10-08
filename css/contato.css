@@ -140,6 +140,7 @@ body {
     justify-content: center;
     background-color: var(--background);
     padding: 20px;
+    color: var(--box-shadow);
 }
 
 .div-footer {
@@ -160,3 +161,20 @@ body {
     margin-top: 10px;
     font-size: 14px;
 }
+
+.section-form {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 1rem;
+}
+
+.logo-insta {
+    width: 45px;
+}
+
+.logo-text {
+    color: var(--text-color);
+}
+
